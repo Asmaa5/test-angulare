@@ -1,0 +1,519 @@
+body
+{
+    padding-top: 70px;
+}
+/********* Start Overriding Bootstrap **********/
+/* Maine Navbar */ 
+.navbar
+{
+    min-height: 70px;    
+}
+/* ده انا جبته كوبى من انسبيكت الصفحة
+    Active Link  */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus
+{
+    background: #E41B17;
+}
+/* Navbar Link */
+.navbar-inverse .navbar-nav > li > a
+{
+    color: #BBB;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 16px;
+}
+/* Brand Name */
+.navbar-inverse .navbar-brand
+{
+    color: #BBB;
+    font-size: 30px;
+    line-height: 40px;
+}
+.navbar-inverse .navbar-brand span
+{
+    color: #E41B17;
+}
+/* Dropdoen Menu */
+.dropdown-menu
+{
+    background: #333;
+    border-top: 3px solid #E41B17;
+    min-width: 200px;
+}
+/* هنل الدروب مينيو لما بتنزل كانها عربى وانا عايزها انجليزى مناليمين مش من الشمال */
+.navbar-right .dropdown-menu
+{
+    left: 0;
+    right: auto;
+}
+.dropdown-menu > li > a
+{
+    color: #fff;
+    padding: 6px 20px;   
+    /* عشان المينيو لما اقف عليها يحصل اختلاف شكله حلو */
+    .webkit-transition: padding 0.5s ease;   /* transition الخاص ب css3 واخليه padding 0.5 ثانية ease بحيث يكون سهل */
+    .moz-transition: padding 0.5s ease;        /* mozilla firefox */
+    .o-transition: padding 0.5s ease;           /* opera */
+    transition: padding 0.5s ease;              /* لكله */
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+{
+    background: #E41B17;
+    color: #fff;
+    padding-left: 30px;         /* هنا الاختلاف لما اقف على المينيو مش باين كويس ومش حلو اووى فا عشان كده حطيت transition css3 فوق */
+}
+.dropdown-menu .divider
+{
+    background: #871818;
+}
+/* Navbar Toggel الى هو مكان الزرار فى وضع موبيل */
+.navbar-toggle
+{
+    margin-top: 18px;
+}
+/* carousel */
+.carousel-caption
+{
+    bottom: 60px;
+    background: rgba(3,3,3,0.2);
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.carousel-indicators
+{
+    bottom: 0;    
+}
+.carousel-indicators li
+{
+    height: 15px;
+    width: 15px;
+    border: 1px solid #EEE;
+}
+.carousel-indicators .active
+{
+    height: 17px;
+    width: 17px;
+    background: #E41B17;
+}
+/********* End Overriding Bootstrap **********/
+
+.container h3
+{
+    padding-top: 20px;
+}
+.btn-success
+{
+    margin-bottom: 400px;
+}
+#popUpWindow
+{
+    //background: lightblue;
+}
+ /*********/
+
+
+
+/* Start Section About */
+.about
+{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about .lead
+{
+    color: #888;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.about h1
+{
+    font-weight: bold;
+}
+.about h1 span
+{
+    color: #E41B17;    
+}
+/* End Section About */
+/* Start Section features */
+.features
+{
+    background: #EEE;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features .feat
+{
+    margin-bottom: 30px;
+}
+.features .feat p
+{
+    line-height: 2em;
+}
+.features h1
+{
+    margin-bottom: 50px;    
+}
+.features .feat span.glyphicon
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #666;   
+}
+/* End Section features */
+/* Start Testimonials Section */
+.testimonials
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials h1
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.testimonials .lead
+{
+    line-height: 2em;
+    margin-bottom: 10px;
+}
+.testimonials span
+{
+    font-size: 18px;
+    font-weight: bold;
+    color: #E41B17
+}
+.testimonials .carousel-inner
+{
+    min-height: 160px;
+    
+}
+.testimonials .carousel-indicators
+{
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+.testimonials .carousel-indicators li
+{
+    text-indent: 0;
+    width: 80px;
+    height: 80px;
+    opacity: 0.5;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    .webkit-transition: all 0.5s ease;   /* transition الخاص ب css3 واخليه padding 0.5 ثانية ease بحيث يكون سهل */
+    .moz-transition: all 0.5s ease;        /* mozilla firefox */
+    .o-transition: all 0.5s ease;           /* opera */
+    transition: all 0.5s ease;              /* لكله */
+}
+.testimonials .carousel-indicators li.active
+{
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    background: none;
+    border: 3px solid #E41B17;
+}
+.testimonials .carousel-indicators li img
+{
+    max-width: 100%;
+}
+/* End Testimonials Section */
+/* Start Section Price Table */
+.price_table
+{
+    background: #EEE;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.price_table h1
+{
+    margin-bottom: 40px;
+}
+.price_table .price_box
+{
+    background: #FFF;
+    padding: 10px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+.price_table .price_box h2
+{
+    margin: 5px 0 15px;
+}
+.price_table .price_box:hover p
+{
+    -webkit-transform: scale(1.1,1.1) rotate(360deg);
+    -moz-transform: scale(1.1,1.1) rotate(360deg);
+    -o-transform: scale(1.1,1.1) rotate(360deg);    
+    transform: scale(1.1,1.1) rotate(360deg);
+    border: 2px solid #DFDFDF;   
+}
+.price_table .price_box p
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #666;
+    width: 100px;
+    height: 100px;
+    background: #F3F3F3;
+    border-radius: 50%;
+    line-height: 100px;
+    border: 2px solid #FFF;
+    -webkit-transition-duration: 0.7s;
+    -moz-transition-duration: 0.7s;
+    -o-transition-duration: 0.7s;
+    transition-duration: 0.7s;    
+}
+.price_table .price_box ul
+{
+    line-height: 250%;
+    font-size: 18px;
+}
+.price_table .price_box a
+{
+    margin-bottom: 5px;
+}
+/* End Section Price Table */
+/* Srart section Our Team */
+.our_team
+{
+    background: url("../images/team.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.our_team .team
+{
+    background: rgba(2,2,92,0.5);
+    color: #FFF;
+    min-height: 600px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.our_team h1
+{
+    margin-bottom: 60px;
+    
+}
+
+.our_team .person
+{
+    margin-bottom: 40px;
+}
+/* End section Our Team */
+/* Start Section Subscribe */
+.subscribe
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+.subscribe h1
+{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe p
+{
+    margin-bottom: 30px;
+    
+}
+.subscribe .form-control
+{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+    
+}
+.subscribe button
+{
+    border-radius: 0;
+}
+/* End Section Subscribe */
+/* Start Section Stats */
+.statistics
+{
+    background: url("../images/stats.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+}
+.statistics .data
+{
+    background-color: rgba(2,2,2,0.8);
+    color: #B6B5B5;
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.statistics h1
+{
+    margin-bottom: 60px;
+}
+.statistics .stats
+{
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+}
+.statistics .stats:hover
+{
+    color: #FFF; 
+}
+.statistics p
+{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.statistics span
+{
+    font-size: 18px;
+}
+/* End Section Stats */
+/* Start Section Our Skills */
+.our-skills
+{
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.our-skills h1 {margin-bottom: 60px;}
+.our-skills h3 {font-weight: bold; margin-top: 0;}
+.our-skills .progress {height: 36px;}
+.our-skills .progress-bar
+{
+    line-height: 36px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 10px;
+}
+/* End Section Our Skills */
+/* Start Section Contact Us */
+.contact-us
+{
+    background: url("../images/contact-us.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.contact-us .fields
+{
+    background: rgba(9,9,9,0.8);
+    height: 500px;
+    color: #DDD;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: block;
+}
+.contact-us b {margin-right: 1000px;}
+.contact-us button {margin-left: 600px;}
+
+
+/* End Section Contact Us */
+/* Start Section Our Clients */
+.our-clients
+{
+    background: #EEE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.our-clients img
+{
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.our-clients img:hover
+{
+    opacity: 1;
+}
+/* End Section Our Clients */
+/* Start Ultimate Footer Section */
+.footer
+{
+    background: #111;
+    color: #AAA;
+
+}
+.container a {color: #AAA;}
+.container a:hover {color: #FFF;}
+.container h3
+{
+    color: #0895D1;
+    letter-spacing: 1px;
+    margin: 30px 0 20px;
+}
+.container .three-columns
+{
+    overflow: hidden;
+}
+.container .three-columns li
+{
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+.container .social-list
+{
+    overflow: hidden;
+    margin: 20px 0 10px;
+}
+.container .social-list li
+{
+    float: left;
+    margin-right: 3px;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+.container .social-list li:hover
+{
+    opacity: 1;
+}
+.container .img-thumbnail
+{
+    background: rgba(0,0,0,0.2);
+    border: 1px solid #444;
+    margin-bottom: 5px;
+}
+.footer .copyright
+{
+    background: #333;
+    color: #EEE;
+    padding: 15px 0;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.footer .copyright span
+{
+    color: #0895D1;
+
+}
+/* End Ultimate Footer Section */
